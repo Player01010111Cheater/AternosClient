@@ -12,7 +12,8 @@ end
 
 local items = {
     -- links here
-    SendWebHook = "https://raw.githubusercontent.com/Player01010111Cheater/AternosClient/refs/heads/main/util/items/SendWebHook.lua",
+    GetCurrentTime = "https://raw.githubusercontent.com/Player01010111Cheater/AternosClient/main/util/items/GetCurrentTime.lua"
+    SendWebHook = "https://raw.githubusercontent.com/Player01010111Cheater/AternosClient/main/util/items/SendWebHook.lua",
     GameName = placeName
 }
 
