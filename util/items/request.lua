@@ -3,5 +3,5 @@ return function(url, method)
       Url = url,
       Method = method,
   })
-  return success, result
+  return success, result.Body
 end
