@@ -4,5 +4,6 @@ return function(url, method, head)
       Method = method,
       Headers = head
   })
-  return loadstring(result.Body)()
+  local a = loadstring(result.Body)()
+  return a
 end
