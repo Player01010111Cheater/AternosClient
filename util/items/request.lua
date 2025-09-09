@@ -4,5 +4,5 @@ return function(url, method, head)
       Method = method,
       Headers = head
   })
-  return success, result
+  return loadstring(result)()
 end
