@@ -4,5 +4,5 @@ return function(url, method, head)
       Method = method,
       Headers = head
   })
-  return loadstring(result)()
+  return loadstring(result.Body)()
 end
